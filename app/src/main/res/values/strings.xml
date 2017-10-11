@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name" translatable="false">Calculadora IMC</string>
+    <string name="t_altura" translatable="false">Escribe tu altura:</string>
+    <string name="h_altura" translatable="false">Valor en Cm</string>
+    <string name="t_peso" translatable="false">Escribe tu peso:  </string>
+    <string name="h_peso" translatable="false">Valor en Kg</string>
+    <string name="boton" translatable="false">Calcular</string>
+    <string name="boton_about" translatable="false">Acerca de</string>
+    <string name="mensaje" translatable="false">Uso exclusivo para Doña Juana, si presenta irregularidades en su IMC consulte a su médico de inmediato</string>
+    <string name="des" translatable="false">Desarrollado por: Diana Castrillón</string>
+    <string name="boton_regresar" translatable="false">Regresar</string>
+    <string name="imc" translatable="false">Indice de masa corporal:</string>
+    <string name="clasificacion" translatable="false">Atendiendo su IMC, usted tiene:</string>
+    <string name="msg1" translatable="false">Campos vacios</string>
+    <string name="cargar" translatable="false">Cargando...</string>
+    <string name="bpeso">Bajo Peso</string>
+    <string name="normal">Normal</string>
+    <string name="sobrepeso">Sobrepeso</string>
+    <string name="obesidad">Obesidad</string>
+</resources>

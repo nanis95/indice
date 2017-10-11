@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <GridLayout
+                android:layout_width="match_parent"
+                android:layout_height="62dp">
+
+                <TextView
+                    android:id="@+id/textView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:text="@string/t_altura"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Large" />
+
+                <EditText
+                    android:id="@+id/txt_altura"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:hint="@string/h_altura"
+                    android:inputType="numberDecimal" />
+
+            </GridLayout>
+
+            <GridLayout
+                android:layout_width="match_parent"
+                android:layout_height="72dp">
+
+                <TextView
+                    android:id="@+id/textView2"
+                    android:layout_width="167dp"
+                    android:layout_height="wrap_content"
+                    android:text="@string/t_peso"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Large" />
+
+                <EditText
+                    android:id="@+id/txt_peso"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:hint="@string/h_peso"
+                    android:inputType="numberDecimal" />
+
+            </GridLayout>
+
+            <GridLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <Button
+                    android:id="@+id/boton_calc"
+                    android:layout_width="203dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.58"
+                    android:background="#388E3C"
+                    android:onClick="calcular"
+                    android:text="@string/boton"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                    android:textColor="@android:color/white" />
+
+                <Button
+                    android:id="@+id/boton_about"
+                    android:layout_width="137dp"
+                    android:layout_height="wrap_content"
+                    android:layout_column="7"
+                    android:layout_row="0"
+                    android:layout_weight="0.58"
+                    android:background="#388E3C"
+                    android:onClick="about"
+                    android:text="@string/boton_about"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                    android:textColor="@android:color/white" />
+
+            </GridLayout>
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

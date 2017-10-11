@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Body-Mass Index Calculator</string>
+    <string name="boton" translatable="false">Calculate</string>
+    <string name="boton_about" translatable="false">About</string>
+    <string name="h_altura" translatable="false">Value in Mts</string>
+    <string name="h_peso" translatable="false">Value in Kg</string>
+    <string name="t_altura" translatable="false">Write your height</string>
+    <string name="t_peso" translatable="false">Write your weight:</string>
+    <string name="boton_regresar" translatable="false">Return</string>
+    <string name="des" translatable="false">Developed by: Diana Castrillon</string>
+    <string name="mensaje" translatable="false">Exclusive use for Doña Juana, if you have irregularities in your BMI consult your doctor immediately</string>
+    <string name="imc" translatable="false">Body-mass Index</string>
+    <string name="clasificacion">Attending your BMI, You have:</string>
+    <string name="msg1" translatable="false">Empty fields</string>
+    <string name="cargar">Loading...</string>
+    <string name="bpeso">Underewight</string>
+    <string name="obesidad">Obesity</string>
+    <string name="normal">Normal</string>
+    <string name="sobrepeso">Overweight</string>
+</resources>

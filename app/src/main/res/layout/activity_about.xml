@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <GridLayout
+            android:layout_width="match_parent"
+            android:layout_height="153dp">
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/boton_about"
+                android:textAppearance="@style/TextAppearance.AppCompat.Button" />
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="273dp"
+                android:layout_height="97dp"
+                android:layout_column="3"
+                android:layout_row="0"
+                android:layout_weight="1"
+                android:gravity=""
+                android:text="@string/mensaje"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium" />
+        </GridLayout>
+
+        <GridLayout
+            android:layout_width="match_parent"
+            android:layout_height="55dp">
+
+            <TextView
+                android:id="@+id/textView7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/des"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body2" />
+        </GridLayout>
+
+        <GridLayout
+            android:layout_width="match_parent"
+            android:layout_height="179dp">
+
+            <Button
+                android:id="@+id/button"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#388E3C"
+                android:onClick="inicio"
+                android:text="@string/boton_regresar"
+                android:textColor="@android:color/white" />
+        </GridLayout>
+    </LinearLayout>
+
+</LinearLayout>
